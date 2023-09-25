@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="This tutorial shows you how to create a simple HTML form using CSS3. The form will collect information from users and send them to a new web page."/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="keywords" content="Html, Css, Jquery, Wordpress, Free Sites, Wordpress Theme, Responsive Site"/>
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="robots" content="index, follow"/>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+
+	<title>Sistema de Cálculo</title>
+ 
+ </head>
+<body>
+    
+<header class="main_header container">        
+    <div class="content">
+    
+        <div class="main_header_logo">
+            <img src="img/CF-Contabilidade-1024x233.png" alt="logo.png" title="logo CF"/>
+        </div>
+    
+    </div>
+</header>
+
+<main class="main_content container">
+
+    <section class="section-seu-codigo container">
+      
+
+        <div class="content">
+                                    
+                <!--Formulário-->
+
+                <div class="container_form">
+
+                            <h1>Sistema de Cálculo Consultoria</h1>
+
+                            <form id="form"action="db.php" method="post" class="form">
+                                
+                                <div class="form_grupo">
+                                    <label for="regime_tributario" class="form_label">Regime Tributário</label>
+                                    <select name="regime_tributario"class="form_input">
+                                        <option value=></option>
+                                        <option value="Simples Nacional"> Simples Nacional</option>
+                                        <option value="Lucro Real"> Lucro Real</option>
+                                        <option value="Lucro Presumido"> Lucro Presumido</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form_grupo">
+                                    <label for="setor" name="fname"class="form_label">Setor</label>
+                                    <select name="setor"class="form_input">
+                                        <option value=""></option>
+                                        <option value="_Todos Segmentos">_Todos Segmentos</option>
+                                        <option value="Serviço">Serviço</option>
+                                        <option value="Industria e Serviço">Indrústria e Serviço</option>
+                                        <option value="Industria e Comercio"> Indústria e Comércio</option>
+                                        <option value="Indústria e Atacado">Indústria e Atacado</option>
+                                        <option value="Indústria">Indústria</option>
+                                        <option value="Comércio e Serviço">Comércio e Serviço</option>
+                                        <option value="Comércio">Comércio</option>                                      
+                                    </select>
+                                </div>
+
+                                <div class="form_grupo">
+                                    <label for="segmento" name="fname"class="form_label">Segmento</label>
+                                    <select name="segmento"class="form_input">
+                                        <option value=""></option>
+                                        <option value="_Generico">_Genérico</option>
+                                        <option value="Autopeças">Autopeças</option>
+                                        <option value="Cervejas, chopes, refrigerantes, águas e outras bebidas">Cervejas, chopes, refrigerantes, águas e outras bebidas</option>
+                                        <option value="Cimentos">Cimentos</option>
+                                        <option value="Energia elétrica">Energia elétrica</option>
+                                        <option value="Lâmpadas, reatores e “starter”">Lâmpadas, reatores e “starter”</option>
+                                        <option value="Materiais de limpeza">Materiais de limpeza</option>
+                                        <option value="Medicamentos de uso humano e outros produtos farmacêuticos para uso humano ou veterinário">Medicamentos de uso humano e outros produtos farmacêuticos para uso humano ou veterinário</option>
+                                        <option value="Papéis">Papéis</option>
+                                        <option value="Pneumáticos, câmaras de ar e protetores de borracha">Pneumáticos, câmaras de ar e protetores de borracha</option>
+                                        <option value="Produtos cerâmicos">Produtos cerâmicos</option>
+                                        <option value="Produtos de perfumaria e de higiene pessoal e cosméticos">Produtos de perfumaria e de higiene pessoal e cosméticos</option>
+                                        <option value="Rações para animais domésticos">Rações para animais domésticos</option>
+                                        <option value="Tintas e vernizes">Tintas e vernizes</option>
+                                        <option value="Veículos de duas e três rodas motorizados">Veículos de duas e três rodas motorizados</option>
+                                        <option value="Venda de mercadorias pelo sistema porta a porta">Venda de mercadorias pelo sistema porta a porta</option>
+                                        <option value="TI, Teleatendimento, Transporte e Relacionados, Construção Civil, Jornalismo, Industria">TI, Teleatendimento, Transporte e Relacionados, Construção Civil, Jornalismo, Industria</option>
+                                        <option value="Medicamentos e Artigos de Perfumaria">Medicamentos e Artigos de Perfumaria</option>
+                                        <option value="Bebidas Frias">Bebidas Frias</option>
+                                        <option value="Bebidas alcoólicas, exceto cerveja e chope">Bebidas alcoólicas, exceto cerveja e chope</option>
+                                        <option value="Cigarros e outros produtos derivados do fumo">Cigarros e outros produtos derivados do fumo</option>
+                                        <option value="Combustíveis e lubrificantes">Combustíveis e lubrificantes</option>
+                                        <option value="fFerramentas">Ferramentas</option>
+                                        <option value="Materiais de construção e congêneres">Materiais de construção e congêneres</option>
+                                        <option value="Materiais elétricos">Materiais elétricos</option>
+                                        <option value="Papéis, plásticos, produtos cerâmicos e vidros">Papéis, plásticos, produtos cerâmicos e vidros</option>
+                                        <option value="Plásticos">Plásticos</option>
+                                        <option value="Produtos alimentícios">Produtos alimentícios</option>
+                                        <option value="Produtos eletrônicos, eletroeletrônicos e eletrodomésticos">Produtos eletrônicos, eletroeletrônicos e eletrodomésticos</option>
+                                        <option value="Sorvetes e preparados para fabricação de sorvetes em máquinas">Sorvetes e preparados para fabricação de sorvetes em máquinas</option>
+                                        <option value="Veículos automotores">Veículos automotores</option>
+                                        <option value="Vidros">Vidros</option>
+                                        <option value="Exportação">Exportação</option>
+                                        <option value="Transportadora">Transportadora</option>
+                                        <option value="Combustíveis e Álcool">Combustíveis e Álcool</option>
+                                        <option value="Veículos, Autopeças e Pneu">Veículos, Autopeças e Pneus</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form_grupo">
+                                    <label for="ano" name="fname"class="form_label">Ano de Atividade</label>
+                                    <select name="ano" class="form_input">
+                                        <option value=""></option>
+                                        <option value="Menos de 12 meses">Menos de 12 meses</option>
+                                        <option value="Entre 1 e 3 anos">Entre 1 e 3 anos</option>
+                                        <option value="Entre 3 anos e 5 anos">Entre 3 anos e 5 anos</option>
+                                                     
+                                    </select>
+                                
+                                
+                                <div class="form_grupo">
+                                    <label class="form_label">Faturamento</labe>
+                                    <input name="faturamento" type="texto" class="form_input" placeholder="R$" required id="inputValor">
+
+                                </div>
+                                                           
+                                          <button id="calcular" type="submit" class="submit_btn">Calcular</button>
+                            </form>
+                           
+                    </div><!--container_form-->
+                <!--Finaliza Formulário-->
+
+    </section><!--FECHA BOX HTML-->
+
+<section>
+        <div class="container_form_two">
+            <h3>Valor Total</h3>
+            <h4> <span id="valor"></span> </h4>
+            <p><span id="nulo"></p>
+        </div>
+
+        <div class="container_form_two">
+            <h3>Tributos</h3>
+            <h4><span id="tributo"></span></h4>
+        </div>
+
+        <div class="container_form_two">
+            <h3>Oportunidades</h3>
+            <h4><span id="oportunidades"></span></h4>
+            <p><span id="nulo"></p>
+        </div>
+    </section>
+   
+</main>
+
+<script src="js/db.js"></script>
+<script src="js/tributo.js"></script>
+<script src="js/valor.js"></script>
+
+</body>
+</html>
