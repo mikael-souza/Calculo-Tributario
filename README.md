@@ -1,4 +1,4 @@
-# Calculo-Tributario
+# Sistema de cálculo Tributario
 
 Sistema de cálculo tributario desenvolvido por mim com a parceira entre as empresas CF Contabilidade e FCX. 
 
