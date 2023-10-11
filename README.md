@@ -1,6 +1,6 @@
 # Sistema de cálculo Tributario
 
-Sistema de cálculo tributario desenvolvido por mim com a parceira entre as empresas CF Contabilidade e FCX. 
+Sistema de cálculo tributario desenvolvido com a parceira entre as empresas CF Contabilidade e FCX. 
 
 ## Tecnologias utilizadas  
 
